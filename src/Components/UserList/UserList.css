@@ -1,0 +1,43 @@
+.clearfix { zoom:1}
+.clearfix:after{
+ content: ".";
+ clear: both;
+ display: block;
+ height: 0;
+ visibility: hidden;
+}
+
+.myData{
+  text-align: center;
+  border: dotted gray 1px; 
+}
+
+main{
+  width: 75%;
+  margin: 0 auto;
+  display: block;
+}
+
+img{
+  display: inline;
+  float: left;
+  border-radius:50px;
+  padding: 15px;
+  clear: both;
+}
+
+.text-part{
+  float: left;
+  clear: right;
+  display: inline;
+  margin-top: 10px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border:0;
+}
