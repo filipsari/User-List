@@ -15,7 +15,7 @@ data.map( (element, index) => {
          <div className="text-part"> 
          <p>Name: { element.name.first}</p>
          <p>email: { element.email}</p>
-         <p> Date of birth: { element.dob.date}</p>
+         <p> Date of birth: { element.dob.date.slice(0, 10).split("-").reverse().join("-")}</p>
          </div>
      </div>
      </main>
